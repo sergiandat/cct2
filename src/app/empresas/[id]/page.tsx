@@ -115,7 +115,8 @@ export default function EmpresaDetallePage() {
     if (!clausulasEmpresa) return { presente: 0, ausente: 0, parcial: 0, mejor: 0, peor: 0 }
 
     const stats = { presente: 0, ausente: 0, parcial: 0, mejor: 0, peor: 0 }
-    Object.values(clausulasEmpresa).forEach((estado) => {
+    Object.values(clausulasEmpresa).forEach((clausula) => {
+      const estado = clausula.estado
       if (estado in stats) {
         stats[estado as keyof typeof stats]++
       }
@@ -284,7 +285,7 @@ export default function EmpresaDetallePage() {
             {escala ? (
               <div className="space-y-4">
                 <p className="text-sm text-gray-500">
-                  Vigente desde: {formatDate(escala.vigencia)}
+                  Vigente desde: {formatDate(escala.vigente)}
                 </p>
                 <div className="space-y-2">
                   {escala.niveles.map((nivel) => {
@@ -543,13 +544,13 @@ export default function EmpresaDetallePage() {
               <h4 className="font-medium text-gray-900 mb-2">Cláusulas a revisar:</h4>
               <div className="flex flex-wrap gap-2">
                 {Object.entries(clausulasEmpresa)
-                  .filter(([_, estado]) => estado === 'ausente' || estado === 'peor')
-                  .map(([clausulaId, estado]) => {
+                  .filter(([_, clausulaData]) => clausulaData.estado === 'ausente' || clausulaData.estado === 'peor')
+                  .map(([clausulaId, clausulaData]) => {
                     const clausula = CLAUSULAS.find((c) => c.id === clausulaId)
                     return (
                       <Badge
                         key={clausulaId}
-                        className={estado === 'ausente' ? 'bg-red-100 text-red-800' : 'bg-orange-100 text-orange-800'}
+                        className={clausulaData.estado === 'ausente' ? 'bg-red-100 text-red-800' : 'bg-orange-100 text-orange-800'}
                       >
                         {clausula?.nombre || clausulaId}
                       </Badge>
