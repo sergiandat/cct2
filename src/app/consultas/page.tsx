@@ -81,9 +81,9 @@ export default function ConsultasPage() {
       id: generateId(),
       role: 'assistant',
       content: response.content,
-      datos: response.datos ?? undefined,
-      fuentes: response.fuentes ?? undefined,
-      insight: response.insight ?? undefined,
+      datos: (response.datos ?? undefined) as any,
+      fuentes: (response.fuentes ?? undefined) as any,
+      insight: (response.insight ?? undefined) as any,
     }
     setMensajes((prev) => [...prev, assistantMessage])
     setIsLoading(false)
