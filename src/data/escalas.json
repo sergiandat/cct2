@@ -1,0 +1,72 @@
+{
+  "transener": {
+    "vigente": "2025-12-01",
+    "niveles": [
+      { "categoria": "U-V", "nombre": "Profesional Experto", "basico": 285000, "zona": 28500, "antiguedad": 5700, "titulo": 14250 },
+      { "categoria": "U-IV", "nombre": "Profesional Coordinador", "basico": 225000, "zona": 22500, "antiguedad": 4500, "titulo": 11250 },
+      { "categoria": "U-III", "nombre": "Profesional Especialista", "basico": 185000, "zona": 18500, "antiguedad": 3700, "titulo": 9250 },
+      { "categoria": "U-II", "nombre": "Profesional Asistente", "basico": 145000, "zona": 14500, "antiguedad": 2900, "titulo": 7250 },
+      { "categoria": "U-I", "nombre": "Joven Profesional", "basico": 115000, "zona": 11500, "antiguedad": 2300, "titulo": 5750 }
+    ]
+  },
+  "transpa": {
+    "vigente": "2024-08-01",
+    "niveles": [
+      { "categoria": "U-V", "nombre": "Profesional Experto", "basico": 240000, "zona": 0, "antiguedad": 3600, "titulo": 12000 },
+      { "categoria": "U-IV", "nombre": "Profesional Coordinador", "basico": 190000, "zona": 0, "antiguedad": 2850, "titulo": 9500 },
+      { "categoria": "U-III", "nombre": "Profesional Especialista", "basico": 152000, "zona": 0, "antiguedad": 2280, "titulo": 7600 },
+      { "categoria": "U-II", "nombre": "Profesional Asistente", "basico": 120000, "zona": 0, "antiguedad": 1800, "titulo": 6000 },
+      { "categoria": "U-I", "nombre": "Joven Profesional", "basico": 95000, "zona": 0, "antiguedad": 1425, "titulo": 4750 }
+    ]
+  },
+  "edenor": {
+    "vigente": "2025-06-01",
+    "niveles": [
+      { "categoria": "U-V", "nombre": "Profesional Experto", "basico": 270000, "zona": 21600, "antiguedad": 5400, "titulo": 13500 },
+      { "categoria": "U-IV", "nombre": "Profesional Coordinador", "basico": 215000, "zona": 17200, "antiguedad": 4300, "titulo": 10750 },
+      { "categoria": "U-III", "nombre": "Profesional Especialista", "basico": 175000, "zona": 14000, "antiguedad": 3500, "titulo": 8750 },
+      { "categoria": "U-II", "nombre": "Profesional Asistente", "basico": 138000, "zona": 11040, "antiguedad": 2760, "titulo": 6900 },
+      { "categoria": "U-I", "nombre": "Joven Profesional", "basico": 110000, "zona": 8800, "antiguedad": 2200, "titulo": 5500 }
+    ]
+  },
+  "edesur": {
+    "vigente": "2025-11-01",
+    "niveles": [
+      { "categoria": "U-V", "nombre": "Profesional Experto", "basico": 280000, "zona": 22400, "antiguedad": 5600, "titulo": 14000 },
+      { "categoria": "U-IV", "nombre": "Profesional Coordinador", "basico": 220000, "zona": 17600, "antiguedad": 4400, "titulo": 11000 },
+      { "categoria": "U-III", "nombre": "Profesional Especialista", "basico": 180000, "zona": 14400, "antiguedad": 3600, "titulo": 9000 },
+      { "categoria": "U-II", "nombre": "Profesional Asistente", "basico": 142000, "zona": 11360, "antiguedad": 2840, "titulo": 7100 },
+      { "categoria": "U-I", "nombre": "Joven Profesional", "basico": 112000, "zona": 8960, "antiguedad": 2240, "titulo": 5600 }
+    ]
+  },
+  "cammesa": {
+    "vigente": "2025-10-01",
+    "niveles": [
+      { "categoria": "U-V", "nombre": "Profesional Experto", "basico": 275000, "zona": 33000, "antiguedad": 5500, "titulo": 0 },
+      { "categoria": "U-IV", "nombre": "Profesional Coordinador", "basico": 218000, "zona": 26160, "antiguedad": 4360, "titulo": 0 },
+      { "categoria": "U-III", "nombre": "Profesional Especialista", "basico": 178000, "zona": 21360, "antiguedad": 3560, "titulo": 0 },
+      { "categoria": "U-II", "nombre": "Profesional Asistente", "basico": 140000, "zona": 16800, "antiguedad": 2800, "titulo": 0 },
+      { "categoria": "U-I", "nombre": "Joven Profesional", "basico": 110000, "zona": 13200, "antiguedad": 2200, "titulo": 0 }
+    ]
+  },
+  "edelap": {
+    "vigente": "2025-09-15",
+    "niveles": [
+      { "categoria": "U-V", "nombre": "Profesional Experto", "basico": 268000, "zona": 21440, "antiguedad": 5360, "titulo": 13400 },
+      { "categoria": "U-IV", "nombre": "Profesional Coordinador", "basico": 212000, "zona": 16960, "antiguedad": 4240, "titulo": 10600 },
+      { "categoria": "U-III", "nombre": "Profesional Especialista", "basico": 172000, "zona": 13760, "antiguedad": 3440, "titulo": 8600 },
+      { "categoria": "U-II", "nombre": "Profesional Asistente", "basico": 135000, "zona": 10800, "antiguedad": 2700, "titulo": 6750 },
+      { "categoria": "U-I", "nombre": "Joven Profesional", "basico": 108000, "zona": 8640, "antiguedad": 2160, "titulo": 5400 }
+    ]
+  },
+  "promedioSector": {
+    "vigente": "2025-12-01",
+    "niveles": [
+      { "categoria": "U-V", "nombre": "Profesional Experto", "basico": 270000, "zona": 21600, "antiguedad": 5400, "titulo": 12150 },
+      { "categoria": "U-IV", "nombre": "Profesional Coordinador", "basico": 213000, "zona": 17040, "antiguedad": 4260, "titulo": 9585 },
+      { "categoria": "U-III", "nombre": "Profesional Especialista", "basico": 174000, "zona": 13920, "antiguedad": 3480, "titulo": 7830 },
+      { "categoria": "U-II", "nombre": "Profesional Asistente", "basico": 137000, "zona": 10960, "antiguedad": 2740, "titulo": 6165 },
+      { "categoria": "U-I", "nombre": "Joven Profesional", "basico": 108000, "zona": 8640, "antiguedad": 2160, "titulo": 4860 }
+    ]
+  }
+}

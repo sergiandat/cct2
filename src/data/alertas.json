@@ -1,0 +1,79 @@
+[
+  {
+    "id": "alerta-transpa-venc",
+    "empresaId": "transpa",
+    "tipo": "vencimiento",
+    "nivel": "critico",
+    "titulo": "TRANSPA vence en 12 días",
+    "descripcion": "El convenio CCT 916/07-E vence el 15/02/2026. No hay propuesta presentada.",
+    "fecha": "2026-02-03",
+    "impacto": "120 afiliados sin cobertura de acuerdo vigente",
+    "accionSugerida": "Convocar reunión paritaria urgente"
+  },
+  {
+    "id": "alerta-transpa-brecha",
+    "empresaId": "transpa",
+    "tipo": "brecha",
+    "nivel": "critico",
+    "titulo": "TRANSPA: brecha salarial crítica",
+    "descripcion": "Brecha del -16% vs sector y -19.6% vs inflación acumulada.",
+    "fecha": "2026-02-03",
+    "impacto": "Pérdida de $31,000/mes para un U-III",
+    "accionSugerida": "Incluir corrección histórica en propuesta"
+  },
+  {
+    "id": "alerta-transpa-clausulas",
+    "empresaId": "transpa",
+    "tipo": "clausula",
+    "nivel": "alto",
+    "titulo": "TRANSPA: 4 cláusulas ausentes",
+    "descripcion": "Faltan: adicional zona, licencia mudanza, adicional riesgo, guardería.",
+    "fecha": "2026-02-03",
+    "impacto": "Inequidad respecto a empresas comparables",
+    "accionSugerida": "Agregar cláusulas a pliego de negociación"
+  },
+  {
+    "id": "alerta-edenor-negoc",
+    "empresaId": "edenor",
+    "tipo": "negociacion",
+    "nivel": "alto",
+    "titulo": "EDENOR: 30 días sin avance",
+    "descripcion": "Paritaria abierta desde 03/01/2026 sin nueva propuesta de la empresa.",
+    "fecha": "2026-02-03",
+    "impacto": "800 afiliados esperando definición",
+    "accionSugerida": "Solicitar reunión con RR.HH."
+  },
+  {
+    "id": "alerta-eden-venc",
+    "empresaId": "eden",
+    "tipo": "vencimiento",
+    "nivel": "medio",
+    "titulo": "EDEN vence en 55 días",
+    "descripcion": "Convenio vence el 30/03/2026. Tiempo para preparar propuesta.",
+    "fecha": "2026-02-03",
+    "impacto": "180 afiliados",
+    "accionSugerida": "Iniciar preparación de paritaria"
+  },
+  {
+    "id": "alerta-cammesa-clausula",
+    "empresaId": "cammesa",
+    "tipo": "clausula",
+    "nivel": "medio",
+    "titulo": "CAMMESA: sin adicional por título",
+    "descripcion": "Es la única empresa grande sin adicional por título universitario.",
+    "fecha": "2026-02-03",
+    "impacto": "280 profesionales sin reconocimiento",
+    "accionSugerida": "Incluir en próxima revisión"
+  },
+  {
+    "id": "alerta-edesur-clausula",
+    "empresaId": "edesur",
+    "tipo": "clausula",
+    "nivel": "bajo",
+    "titulo": "EDESUR: 2 cláusulas mejorables",
+    "descripcion": "Faltan licencia mudanza y guardería.",
+    "fecha": "2026-02-03",
+    "impacto": "Menor prioridad, convenio vigente hasta junio",
+    "accionSugerida": "Registrar para próxima paritaria"
+  }
+]

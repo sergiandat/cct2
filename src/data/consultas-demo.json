@@ -1,0 +1,121 @@
+[
+  {
+    "id": "zona-adicional",
+    "keywords": ["zona", "adicional", "desfavorable", "pagan"],
+    "pregunta": "¿Qué empresas pagan adicional por zona?",
+    "respuesta": "Encontré **12 empresas** que pagan adicional por zona desfavorable. Las que mejor pagan son CAMMESA (12%) y TRANSENER (10%). Hay **2 empresas sin este adicional**: TRANSPA y una más.",
+    "datos": [
+      { "empresa": "CAMMESA", "adicional": "12%", "articulo": "Art. 18", "pagina": 6 },
+      { "empresa": "TRANSENER", "adicional": "10%", "articulo": "Art. 23", "pagina": 6 },
+      { "empresa": "EDENOR", "adicional": "8%", "articulo": "Art. 31", "pagina": 12 },
+      { "empresa": "EDESUR", "adicional": "8%", "articulo": "Art. 31", "pagina": 12 },
+      { "empresa": "EDELAP", "adicional": "8%", "articulo": "Art. 28", "pagina": 10 },
+      { "empresa": "TRANSPA", "adicional": "No tiene", "articulo": "-", "pagina": null }
+    ],
+    "fuentes": [
+      { "documento": "CCT 856/08-E (CAMMESA)", "articulo": "Art. 18", "pagina": 6, "texto": "Los trabajadores que laboren en regiones reconocidas por este convenio como 'zona desfavorable' percibirán un adicional del 12% sobre el salario básico." },
+      { "documento": "CCT 692/05-E (TRANSENER)", "articulo": "Art. 23", "pagina": 6, "texto": "Los trabajadores que laboren en regiones reconocidas como zona desfavorable percibirán un adicional del 10% sobre el salario básico." }
+    ],
+    "insight": "⚠️ TRANSPA es la única empresa grande sin adicional por zona. Esto representa una inequidad de ~$15,000/mes para un U-III."
+  },
+  {
+    "id": "licencia-paternidad",
+    "keywords": ["paternidad", "licencia", "días", "nacimiento", "hijo"],
+    "pregunta": "¿Cuántos días de licencia por paternidad tenemos en cada empresa?",
+    "respuesta": "La licencia por paternidad varía entre **10 y 15 días** según la empresa. El promedio del sector es **13 días**.",
+    "datos": [
+      { "empresa": "TRANSENER", "dias": 15, "tipo": "corridos", "articulo": "Art. 45", "pagina": 23 },
+      { "empresa": "EDENOR", "dias": 15, "tipo": "corridos", "articulo": "Art. 52", "pagina": 31 },
+      { "empresa": "EDESUR", "dias": 12, "tipo": "corridos", "articulo": "Art. 52", "pagina": 31 },
+      { "empresa": "CAMMESA", "dias": 10, "tipo": "hábiles", "articulo": "Art. 41", "pagina": 20 },
+      { "empresa": "TRANSPA", "dias": 10, "tipo": "corridos", "articulo": "Art. 38", "pagina": 19 }
+    ],
+    "fuentes": [
+      { "documento": "CCT 692/05-E (TRANSENER)", "articulo": "Art. 45", "pagina": 23, "texto": "En caso de nacimiento de hijo, el trabajador tendrá derecho a una licencia de QUINCE (15) DÍAS CORRIDOS, con goce de haberes." },
+      { "documento": "CCT 916/07-E (TRANSPA)", "articulo": "Art. 38", "pagina": 19, "texto": "Por nacimiento de hijo, el trabajador gozará de una licencia de DIEZ (10) días corridos con goce de sueldo." }
+    ],
+    "insight": "⚠️ TRANSPA y CAMMESA están por debajo del promedio del sector (13 días). Oportunidad de mejora en próxima paritaria."
+  },
+  {
+    "id": "peor-promedio",
+    "keywords": ["peor", "promedio", "debajo", "sector", "brecha"],
+    "pregunta": "¿Dónde estamos peor que el promedio del sector?",
+    "respuesta": "Hay **3 empresas** con brechas significativas respecto al promedio del sector:",
+    "datos": [
+      { "empresa": "TRANSPA", "brecha": "-16%", "impacto": "120 afiliados", "prioridad": "Crítica" },
+      { "empresa": "EDENOR", "brecha": "-3%", "impacto": "800 afiliados", "prioridad": "Media" },
+      { "empresa": "EDEN", "brecha": "-2%", "impacto": "180 afiliados", "prioridad": "Baja" }
+    ],
+    "fuentes": [
+      { "documento": "Análisis interno", "articulo": "Comparativo 2026", "pagina": 1, "texto": "Comparación de escalas salariales vigentes vs promedio ponderado del sector energético." }
+    ],
+    "insight": "🔴 TRANSPA concentra el mayor problema: brecha del 16%, convenio vencido, y 4 cláusulas ausentes. Requiere acción inmediata."
+  },
+  {
+    "id": "requisitos-u4",
+    "keywords": ["requisitos", "U-IV", "categoría", "coordinador", "promoción"],
+    "pregunta": "¿Qué requisitos tiene la categoría U-IV?",
+    "respuesta": "La categoría **U-IV (Profesional Coordinador)** requiere:",
+    "datos": [
+      { "requisito": "Título universitario", "tipo": "Obligatorio" },
+      { "requisito": "7+ años de experiencia profesional", "tipo": "Obligatorio" },
+      { "requisito": "3+ años en categoría U-III", "tipo": "Obligatorio" },
+      { "requisito": "Curso de liderazgo y gestión", "tipo": "Obligatorio" },
+      { "requisito": "Especialización en el área", "tipo": "Deseable" },
+      { "requisito": "Evaluación de desempeño satisfactoria", "tipo": "Obligatorio" }
+    ],
+    "fuentes": [
+      { "documento": "CCT 692/05-E (TRANSENER)", "articulo": "Art. 23", "pagina": 12, "texto": "Para acceder a la categoría U-IV el trabajador deberá acreditar título universitario, mínimo 7 años de experiencia profesional comprobable, y haber desempeñado funciones de categoría U-III por al menos 3 años." }
+    ],
+    "insight": "📌 La principal diferencia entre empresas está en el requisito de especialización: algunas lo exigen, otras no."
+  },
+  {
+    "id": "brecha-transpa",
+    "keywords": ["brecha", "TRANSPA", "acumulada", "histórica", "evolución"],
+    "pregunta": "¿Cuál es la brecha acumulada en TRANSPA?",
+    "respuesta": "TRANSPA acumula una **pérdida del 7pp vs inflación** en los últimos 4 años, y la **brecha vs TRANSENER creció del 8% al 16%**.",
+    "datos": [
+      { "año": 2021, "vsInflacion": "+2pp", "vsTransener": "-8%" },
+      { "año": 2022, "vsInflacion": "-8pp", "vsTransener": "-12%" },
+      { "año": 2023, "vsInflacion": "+3pp", "vsTransener": "-14%" },
+      { "año": 2024, "vsInflacion": "-4pp", "vsTransener": "-16%" },
+      { "año": "Acumulado", "vsInflacion": "-7pp", "vsTransener": "-16%" }
+    ],
+    "fuentes": [
+      { "documento": "Análisis histórico TRANSPA", "articulo": "Informe 2024", "pagina": 3, "texto": "Evolución de paritarias TRANSPA 2021-2024 comparado con inflación oficial y empresa de referencia (TRANSENER)." }
+    ],
+    "insight": "🔴 La brecha no solo existe, sino que CRECE cada año. Argumento fuerte para pedir corrección estructural, no solo ajuste por inflación."
+  },
+  {
+    "id": "vacaciones-comparar",
+    "keywords": ["vacaciones", "comparar", "TRANSENER", "TRANSPA", "días extra"],
+    "pregunta": "Comparar vacaciones entre TRANSENER y TRANSPA",
+    "respuesta": "TRANSENER otorga **5 días extra** de vacaciones por convenio, mientras que TRANSPA solo otorga **3 días extra**.",
+    "datos": [
+      { "empresa": "TRANSENER", "diasExtra": 5, "articulo": "Art. 50", "pagina": 26 },
+      { "empresa": "TRANSPA", "diasExtra": 3, "articulo": "Art. 42", "pagina": 21 },
+      { "empresa": "Diferencia", "diasExtra": 2, "articulo": "-", "pagina": null }
+    ],
+    "fuentes": [
+      { "documento": "CCT 692/05-E (TRANSENER)", "articulo": "Art. 50", "pagina": 26, "texto": "Además de las vacaciones establecidas por ley, los trabajadores gozarán de CINCO (5) días adicionales de licencia anual ordinaria." },
+      { "documento": "CCT 916/07-E (TRANSPA)", "articulo": "Art. 42", "pagina": 21, "texto": "Se otorgan TRES (3) días adicionales de vacaciones anuales a todo el personal comprendido en este convenio." }
+    ],
+    "insight": "📌 2 días menos de vacaciones por año representa una diferencia significativa en calidad de vida. Punto negociable en paritaria."
+  },
+  {
+    "id": "guardias-mejor",
+    "keywords": ["guardias", "mejor", "régimen", "rotativas", "turno"],
+    "pregunta": "¿Qué empresas tienen mejor régimen de guardias?",
+    "respuesta": "El mejor régimen es el de **guardias rotativas** (TRANSENER, EDENOR, CAMMESA) que permite mejor distribución del descanso. TRANSPA tiene **guardias fijas**, menos favorable.",
+    "datos": [
+      { "empresa": "TRANSENER", "regimen": "Rotativas", "adicional": "15%", "calificacion": "Mejor" },
+      { "empresa": "EDENOR", "regimen": "Rotativas", "adicional": "12%", "calificacion": "Mejor" },
+      { "empresa": "CAMMESA", "regimen": "Rotativas", "adicional": "15%", "calificacion": "Mejor" },
+      { "empresa": "TRANSPA", "regimen": "Fijas", "adicional": "12%", "calificacion": "Regular" }
+    ],
+    "fuentes": [
+      { "documento": "CCT 692/05-E (TRANSENER)", "articulo": "Art. 14", "pagina": 5, "texto": "El personal de guardia cumplirá turnos rotativos de 8 horas, con descanso compensatorio según diagrama establecido por la empresa." }
+    ],
+    "insight": "📌 Las guardias rotativas permiten mejor recuperación y vida familiar. TRANSPA debería negociar el cambio de régimen."
+  }
+]
