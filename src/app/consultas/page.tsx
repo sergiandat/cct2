@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { Send, FileText, Lightbulb, User, Bot } from 'lucide-react'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
@@ -19,7 +19,7 @@ interface Mensaje {
   insight?: string
 }
 
-export default function ConsultasPage() {
+function ConsultasContent() {
   const searchParams = useSearchParams()
   const [input, setInput] = useState('')
   const [mensajes, setMensajes] = useState<Mensaje[]>([])
@@ -290,5 +290,17 @@ export default function ConsultasPage() {
         </Card>
       </div>
     </div>
+  )
+}
+
+export default function ConsultasPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex h-[calc(100vh-8rem)] items-center justify-center">
+        <div className="text-gray-500">Cargando...</div>
+      </div>
+    }>
+      <ConsultasContent />
+    </Suspense>
   )
 }
