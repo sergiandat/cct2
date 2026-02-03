@@ -42,9 +42,9 @@ export default function ConsultasPage() {
     if (consulta) {
       return {
         content: consulta.respuesta,
-        datos: consulta.datos,
-        fuentes: consulta.fuentes,
-        insight: consulta.insight,
+        datos: consulta.datos || undefined,
+        fuentes: consulta.fuentes || undefined,
+        insight: consulta.insight || undefined,
       }
     }
 
@@ -52,9 +52,9 @@ export default function ConsultasPage() {
     return {
       content:
         'No encontré información específica sobre esa consulta en los convenios cargados. Intentá reformular la pregunta o consultá alguna de las sugerencias.',
-      datos: null,
-      fuentes: null,
-      insight: null,
+      datos: undefined,
+      fuentes: undefined,
+      insight: undefined,
     }
   }
 
@@ -81,9 +81,9 @@ export default function ConsultasPage() {
       id: generateId(),
       role: 'assistant',
       content: response.content,
-      datos: response.datos,
-      fuentes: response.fuentes,
-      insight: response.insight,
+      datos: response.datos ?? undefined,
+      fuentes: response.fuentes ?? undefined,
+      insight: response.insight ?? undefined,
     }
     setMensajes((prev) => [...prev, assistantMessage])
     setIsLoading(false)
